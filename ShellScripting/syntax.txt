@@ -1,3 +1,4 @@
+
 Condition statement
 
 1) if statement
@@ -62,6 +63,55 @@ while [ condition ]
 until [ condition ]
   do
       statement
+  doneCondition statement
+
+1) if statement
+
+if [ condition ];
+then
+    statement
+fi
+
+2) if-else statement
+
+if [ condition ];
+then
+    statement1
+else
+    statement2
+fi
+
+3) if-elif-else statement
+
+if [ condition ];
+then
+    statement1
+elif [ condition2 ];
+then
+    statement2
+else
+    statement3
+fi
+
+LOOPS SYNTAX
+1)FOR
+
+for var in list
+  do
+      statement
   done
 
+2)while
 
+while [ condition ]
+  do
+      statement
+  done
+
+3)until
+
+until [ condition ]
+  do
+      statement
+  done
+>>>>>>> 193b0a5211f48bc6036bd6ce4556aeda28810eee
