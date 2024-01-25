@@ -7,7 +7,7 @@ read u
 echo "Enter Password"
 read p
 
-until [ "$u" = $a ] && [ "$p" = $b ]
+until [ $a == "$u" ] && [ $b == "$p" ];
 do
 	echo "invalide input"
 	echo "Enter Username"
